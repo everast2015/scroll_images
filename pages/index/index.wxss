@@ -1,37 +1,32 @@
-/**index.wxss**/
-
-.imgWrap {
-  height: 262rpx;
-  width: 100%;
+.list-wrap {
+  width: 90%;
   display: flex;
-  display: -webkit-box;
-  flex-direction: column;
+  box-sizing: border-box;
+  padding: 48rpx 0rpx 48rpx 32rpx;
 }
 
-.img_Item {
+.list-item {
   width: 188rpx;
-  height: 188rpx;
   flex: 1;
   margin-right: 26rpx;
 }
 
-.img_Item_img {
-  width: 188rpx;
-  height: 188rpx;
-  border-radius: 26rpx;
+.list-item:last-child {
+  padding-right: 32rpx;
 }
 
-/* 
-  text-overflow: ellipsis; 超出出现省略号
-  display: -webkit-box;设置为弹性盒子显示
-  -webkit-line-clamp: 2; 显示为两行
-  -webkit-box-orient: vertical;设置盒子的排列方式，从上到下进行排列
- */
+.img-item {
+  width: 188rpx;
+  height: 188rpx;
+  border-radius: 12rpx;
+}
 
 .text-color {
+  height: 74rpx;
   font-size: 26rpx;
-  color: #000;
-  line-height: 35rpx;
+  line-height: 36rpx;
+  font-weight: 300;
+  color: #fff;
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
